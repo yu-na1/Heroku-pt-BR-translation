@@ -563,7 +563,7 @@ translate:
   name: "Translator"
   no_args: "<emoji document_id=5210952531676504517>❌</emoji> <b>Nenhum argumento fornecido</b>"
   error: "<emoji document_id=5210952531676504517>❌</emoji> <b>Não foi possível traduzir o texto</b>"
-  language: "pt-BR"
+  language: "pt"
   _cmd_doc_tr: "[idioma] [texto] - Traduzir texto"
   _cls_doc: "Traduz texto (obviamente)"
 
