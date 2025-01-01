@@ -229,57 +229,57 @@ presets:
 
 settings:
   name: "Settings"
-  installation: '<emoji document_id=5363805650327450240>▪️</emoji> The installation is very easy! Just enter the following in your servers terminal:
+  installation: '<emoji document_id=5363805650327450240>▪️</emoji> A instalação é muito fácil! Basta inserir o seguinte no terminal do seu servidor:
 
-<pre><code class="language-bash">sudo apt update &amp;&amp; sudo apt upgrade -y &amp;&amp; sudo apt install git &amp;&amp; sudo apt install python3-pip &amp;&amp; git clone https://github.com/coddrago/Heroku &amp;&amp; cd Heroku &amp;&amp; pip install -r requirements.txt &amp;&amp; python3 -m hikka</code></pre>
-<emoji document_id=5299027123913105700>😐</emoji> If you dont have sudo access, simply remove the initial steps.
+<pre><code class="language-bash">sudo apt update && sudo apt upgrade -y && sudo apt install git && sudo apt install python3-pip && git clone https://github.com/coddrago/Heroku && cd Heroku && pip install -r requirements.txt && python3 -m hikka</code></pre>
+<emoji document_id=5299027123913105700>😐</emoji> Se você não tiver acesso sudo, simplesmente remova as etapas iniciais.
 
-<emoji document_id=5300777464820145682>🥳</emoji> Lets go over a few arguments:
+<emoji document_id=5300777464820145682>🥳</emoji> Vamos revisar alguns argumentos:
 
-<emoji document_id=5787313834012184077>🔐</emoji> The <code>--root</code> argument allows you to run Heroku as a <b>root user</b>.
+<emoji document_id=5787313834012184077>🔐</emoji> O argumento <code>--root</code> permite que você execute o Heroku como um usuário <b>root</b>.
 
-<emoji document_id=5785209342986817408>🌎</emoji> The <code>--no-web</code> argument enables login to your account <b>directly in the terminal, rather than through a link</b> <code>{}.lhr.life</code>.
+<emoji document_id=5785209342986817408>🌎</emoji> O argumento <code>--no-web</code> permite o login na sua conta <b>diretamente no terminal, em vez de usar um link</b> <code>{}.lhr.life</code>.
 
-<emoji document_id=5471895949804575096>🤲</emoji> However, if you want to migrate from hikariatama Hikka, download this module:
+<emoji document_id=5471895949804575096>🤲</emoji> No entanto, se você quiser migrar do hikariatama Hikka, baixe este módulo:
 
 <pre><code class="language-heroku">{prefix}dlm https://raw.githubusercontent.com/coddrago/modules/main/SwitchToHeroku.py</code></pre>
 
-It completely safe and will help you upgrade to Heroku automatically'
-  too_many_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Too many args</b>"
-  blacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} blacklisted from userbot</b>"
-  unblacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} unblacklisted from userbot</b>"
-  user_blacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>User {} blacklisted from userbot</b>"
-  user_unblacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>User {} unblacklisted from userbot</b>"
-  what_prefix: "<emoji document_id=5382187118216879236>❓</emoji> <b>What should the prefix be set to?</b>"
-  prefix_incorrect: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Prefix must be one symbol in length</b>"
-  prefix_set: "{} <b>Command prefix updated. Use the following command to change it back:</b>\n<pre><code class=\"language-heroku\">{newprefix}setprefix {oldprefix}</code></pre>"
-  alias_created: "<emoji document_id=5197474765387864959>👍</emoji> <b>Alias created. Access it with</b> <code>{}</code>"
+É completamente seguro e irá ajudá-lo a atualizar para o Heroku automaticamente.
+  too_many_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Argumentos demais</b>"
+  blacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} na lista negra do userbot</b>"
+  unblacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} removido da lista negra do userbot</b>"
+  user_blacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Usuário {} na lista negra do userbot</b>"
+  user_unblacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Usuário {} removido da lista negra do userbot</b>"
+  what_prefix: "<emoji document_id=5382187118216879236>❓</emoji> <b>Qual deve ser o prefixo?</b>"
+  prefix_incorrect: "<emoji document_id=5210952531676504517>🚫</emoji> <b>O prefixo deve ter apenas um símbolo</b>"
+  prefix_set: "{} <b>Prefixo de comando atualizado. Use o seguinte comando para alterá-lo novamente:</b>\n<pre><code class=\"language-heroku\">{newprefix}setprefix {oldprefix}</code></pre>"
+  alias_created: "<emoji document_id=5197474765387864959>👍</emoji> <b>Alias criado. Acesse-o com</b> <code>{}</code>"
   aliases: "<b>🔗 Aliases:</b>\n"
-  no_command: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Command</b> <code>{}</code> <b>does not exist</b>"
-  alias_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>You must provide a command and the alias for it</b>"
-  unstable: "\n\n<emoji document_id=5355133243773435190>❕</emoji> <b>You are using an unstable branch</b> <code>{}</code><b>!</b>"
-  delalias_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>You must provide the alias name</b>"
-  alias_removed: "<emoji document_id=5197474765387864959>👍</emoji> <b>Alias</b> <code>{}</code> <b>removed</b>."
-  no_alias: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Alias</b> <code>{}</code> <b>does not exist</b>"
-  db_cleared: "<emoji document_id=5197474765387864959>👍</emoji> <b>Database cleared</b>"
-  hikka: "{} <b>{}.{}.{}</b> <i>{}</i>\n\n<b><emoji document_id=5289608677244811430>📁</emoji> <b>Telethon:</b> <i>1.37.0</i>\n\n<emoji document_id=5228879218363872764>⌨</emoji> <b>Developer: t.me/codrago</b>\n<emoji document_id=5375368793209972850>🖋</emoji> <b>Designer: t.me/tr4mq</b>"
-  confirm_cleardb: "⚠️ <b>Are you sure, that you want to clear database?</b>"
-  cleardb_confirm: "🗑 Clear database"
-  cancel: "🚫 Cancel"
-  who_to_blacklist: "<emoji document_id=5382187118216879236>❓</emoji> <b>Who to blacklist?</b>"
-  who_to_unblacklist: "<emoji document_id=5382187118216879236>❓</emoji> <b>Who to unblacklist?</b>"
-  _cmd_doc_addalias: "Set an alias for a command"
-  _cmd_doc_aliases: "Print all your aliases"
-  _cmd_doc_blacklist: "[chat_id] [module] - Blacklist the bot from operating somewhere"
-  _cmd_doc_blacklistuser: "[user_id] - Prevent this user from running any commands"
-  _cmd_doc_cleardb: "Clear the entire database, effectively performing a factory reset"
-  _cmd_doc_delalias: "Remove an alias for a command"
-  _cmd_doc_hikka: "Get Heroku version"
-  _cmd_doc_setprefix: "<prefix> - Sets command prefix"
-  _cmd_doc_unblacklist: "<chat_id> - Unblacklist the bot from operating somewhere"
-  _cmd_doc_unblacklistuser: "[user_id] - Allow this user to run permitted commands"
-  _cfg_nonstandart_prefixes: "Allow non-standart prefixes like flags or more than one symbol"
-  _cls_doc: "Control core userbot settings"
+  no_command: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Comando</b> <code>{}</code> <b>não existe</b>"
+  alias_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Você deve fornecer um comando e seu alias</b>"
+  unstable: "\n\n<emoji document_id=5355133243773435190>❕</emoji> <b>Você está usando um branch instável</b> <code>{}</code><b>!</b>"
+  delalias_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Você deve fornecer o nome do alias</b>"
+  alias_removed: "<emoji document_id=5197474765387864959>👍</emoji> <b>Alias</b> <code>{}</code> <b>removido.</b>"
+  no_alias: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Alias</b> <code>{}</code> <b>não existe</b>"
+  db_cleared: "<emoji document_id=5197474765387864959>👍</emoji> <b>Banco de dados limpo</b>"
+  hikka: "{} <b>{}.{}.{}</b> <i>{}</i>\n\n<b><emoji document_id=5289608677244811430>📁</emoji> <b>Telethon:</b> <i>1.37.0</i>\n\n<emoji document_id=5228879218363872764>⌨</emoji> <b>Desenvolvedor: t.me/codrago</b>\n<emoji document_id=5375368793209972850>🖋</emoji> <b>Designer: t.me/tr4mq</b>"
+  confirm_cleardb: "⚠️ <b>Você tem certeza que deseja limpar o banco de dados?</b>"
+  cleardb_confirm: "🗑 Limpar banco de dados"
+  cancel: "🚫 Cancelar"
+  who_to_blacklist: "<emoji document_id=5382187118216879236>❓</emoji> <b>Quem adicionar à lista negra?</b>"
+  who_to_unblacklist: "<emoji document_id=5382187118216879236>❓</emoji> <b>Quem remover da lista negra?</b>"
+  _cmd_doc_addalias: "Define um alias para um comando"
+  _cmd_doc_aliases: "Mostra todos os seus aliases"
+  _cmd_doc_blacklist: "[chat_id] [module] - Adiciona o bot à lista negra para que ele não funcione em algum lugar"
+  _cmd_doc_blacklistuser: "[user_id] - Impede este usuário de executar qualquer comando"
+  _cmd_doc_cleardb: "Limpa todo o banco de dados, fazendo essencialmente uma restauração de fábrica"
+  _cmd_doc_delalias: "Remove um alias de um comando"
+  _cmd_doc_hikka: "Obtém a versão do Heroku"
+  _cmd_doc_setprefix: "<prefix> - Define o prefixo de comando"
+  _cmd_doc_unblacklist: "<chat_id> - Remove o bot da lista negra para que ele funcione em algum lugar"
+  _cmd_doc_unblacklistuser: "[user_id] - Permite que este usuário execute comandos permitidos"
+  _cfg_nonstandart_prefixes: "Permitir prefixos não convencionais, como flags ou mais de um símbolo"
+  _cls_doc: "Controlar as configurações do núcleo do userbot"
 
 heroku_config:
   name: "HerokuConfig"
@@ -426,37 +426,37 @@ help:
   core_notice: "<emoji document_id=5355133243773435190>☝️</emoji> <b>Este é um módulo principal. Você não pode descarregá-lo nem substituí-lo</b>"
 
 heroku_info:
-  name: "HerokuInfo"
-  owner: "Owner"
-  version: "Version"
+  name: "InfoHeroku"
+  owner: "Dono"
+  version: "Versão"
   build: "Build"
-  prefix: "Prefix"
-  uptime: "Uptime"
+  prefix: "Prefixo"
+  uptime: "Tempo de atividade"
   branch: "Branch"
-  cpu_usage: "CPU usage"
-  ram_usage: "RAM usage"
-  send_info: "Send userbot info"
-  description: "ℹ This will not compromise any sensitive info"
-  up-to-date: "<emoji document_id=5370699111492229743>😌</emoji> <b>Up-to-date</b>"
-  update_required: "<emoji document_id=5424728541650494040>😕</emoji> <b>Update required</b> <code>.update</code>"
-  setinfo_no_args: "<emoji document_id=5370881342659631698>😢</emoji> <b>You need to specify text to change info to</b>"
-  setinfo_success: "<emoji document_id=5436040291507247633>🎉</emoji> <b>Info changed successfully</b>"
-  _cfg_cst_msg: "Custom message for info. May contain {me}, {version}, {build}, {prefix}, {platform}, {upd}, {uptime}, {cpu_usage}, {ram_usage}, {branch} keywords"
-  _cfg_cst_btn: "Custom button for info. Leave empty to remove button"
-  _cfg_banner: "URL to image banner"
-  desc: "<emoji document_id=5188377234380954537>🪐</emoji> <b>Userbot — what is it?</b>\n\n<emoji document_id=5472238129849048175>😎</emoji> A userbot refers to a <b>third-party program</b> that interacts with the Telegram API to perform <b>automated tasks on behalf of a user</b>. These userbots can be used to automate various tasks such as <b>sending messages, joining channels, downloading media, and much more</b>.\n\n<emoji document_id=5474667187258006816>😎</emoji> Userbots are different from regular Telegram bots as <b>they run on the user's account</b> rather than a bot account. This means that userbots can access more features and have greater flexibility in terms of the actions they can perform.\n\n<emoji document_id=5472267631979405211>🚫</emoji> However, it is important to note that <b>userbots are not officially supported by Telegram</b> and their use may violate the platform's terms of service. As such, <b>users should exercise caution when using userbots</b> and ensure that they are not being used for malicious purposes.\n\n"
-  _cmd_doc_hikkainfo: "Send info aka 'What is Heroku?'"
-  _cmd_doc_info: "Send userbot info"
-  _cmd_doc_setinfo: "<text> - Change text in .info"
-  _ihandle_doc_info: "Send userbot info"
-  _cls_doc: "Show userbot info"
+  cpu_usage: "Uso da CPU"
+  ram_usage: "Uso da RAM"
+  send_info: "Enviar informações do userbot"
+  description: "ℹ️ Isso não comprometerá nenhuma informação sensível."
+  up-to-date: "<emoji document_id=5370699111492229743>😌</emoji> <b>Atualizado</b>"
+  update_required: "<emoji document_id=5424728541650494040>😕</emoji> <b>Atualização necessária</b> <code>.update</code>"
+  setinfo_no_args: "<emoji document_id=5370881342659631698>😢</emoji> <b>Você precisa especificar o texto para alterar as informações.</b>"
+  setinfo_success: "<emoji document_id=5436040291507247633>🎉</emoji> <b>Informações alteradas com sucesso!</b>"
+  _cfg_cst_msg: "Mensagem personalizada para informações. Pode conter as palavras-chave {me}, {version}, {build}, {prefix}, {platform}, {upd}, {uptime}, {cpu_usage}, {ram_usage}, {branch}"
+  _cfg_cst_btn: "Botão personalizado para informações. Deixe em branco para remover o botão."
+  _cfg_banner: "URL para imagem de banner"
+  desc: "<emoji document_id=5188377234380954537>🪐</emoji> <b>Userbot — o que é?</b>\n\n<emoji document_id=5472238129849048175>😎</emoji> Um userbot é um <b>programa de terceiros</b> que interage com a API do Telegram para executar <b>tarefas automatizadas em nome de um usuário</b>. Esses userbots podem ser usados para automatizar várias tarefas, como <b>enviar mensagens, entrar em canais, baixar mídia e muito mais</b>.\n\n<emoji document_id=5474667187258006816>😎</emoji> Userbots são diferentes dos bots regulares do Telegram, pois <b>eles rodam na conta do usuário</b> em vez de uma conta de bot. Isso significa que os userbots podem acessar mais recursos e ter maior flexibilidade em termos das ações que podem executar.\n\n<emoji document_id=5472267631979405211>🚫</emoji> No entanto, é importante observar que <b>os userbots não são oficialmente suportados pelo Telegram</b> e seu uso pode violar os termos de serviço da plataforma. Como tal, <b>os usuários devem ter cuidado ao usar userbots</b> e garantir que não estejam sendo usados para fins maliciosos.\n\n"
+  _cmd_doc_hikkainfo: "Enviar informações, também conhecido como 'O que é Heroku?'"
+  _cmd_doc_info: "Enviar informações do userbot"
+  _cmd_doc_setinfo: "<texto> - Alterar texto em .info"
+  _ihandle_doc_info: "Enviar informações do userbot"
+  _cls_doc: "Mostrar informações do userbot"
 
 loader:
   name: "Loader"
   loadmod_pm_timeout: "Por favor, aguarde 10 segundos antes de confirmar esta ação"
   loadmod_not_allowed_fresh_pm: "<emoji document_id=5447644880824181073>⚠️</emoji> <b><u>Leia isto com atenção!</u></b> <emoji document_id=5447644880824181073>⚠️</emoji>\n\n<b>Você está tentando carregar um módulo em mensagens privadas com um usuário que você não conhece.</b> Módulos não verificados pelo desenvolvedor podem causar muitos problemas, desde <b>danificar sua conta até a exclusão da conta ou comprometimento da sessão.</b> Se você conhece este usuário e confia <b><u>100%</u></b> nele, aguarde alguns dias e tente novamente."
   loadmod_confirm_pm_message: "<emoji document_id=5451732530048802485>⏳</emoji> <i>Aguardando sua confirmação...</i>"
-  link: "<emoji document_id=5256113064821926998>📁</emoji> <b>Arquivo de</b> {class_name}\n\n<emoji document_id=5134452506935427991>🪐</emoji> <b>{prefix}lm em resposta a esta mensagem para instalar</b>\n\n<emoji document_id=4916086774649848789>🔗</emoji> <code>{prefix}dlm {url}</code>\n\n{not_exact}"
+  link: "<emoji document_id=5256113064821926998>📁</emoji> <b>Arquivo de</b> {class_name}\n\n<emoji document_id=5134452506935427991>🪐</emoji> <b>{prefix}lm em resposta a esta mensagem para instalar</b>\n\n<emoji document_id=5877465816030515018>🔗</emoji> <code>{prefix}dlm {url}</code>\n\n{not_exact}"
   file: "<emoji document_id=5256113064821926998>📁</emoji> <b>Arquivo de</b> {class_name}\n\n<emoji document_id=5134452506935427991>🪐</emoji> <b>{prefix}lm em resposta a esta mensagem para instalar</b>\n\n{not_exact}"
   finding_module_in_repos: "<emoji document_id=5873204392429096339>🔄</emoji> Buscando módulos nos repositórios."
   loading_module_via_file: "<emoji document_id=5873204392429096339>🔄</emoji> Carregando o módulo."
@@ -549,18 +549,18 @@ translations:
 
 eval:
   name: "Evaluator"
-  eval: "<emoji document_id={}>💻</emoji><b> Code:</b>\n<pre><code class=\"language-{}\">{}</code></pre>\n\n<emoji document_id=5197688912457245639>✅</emoji><b> Result:</b>\n<pre><code class=\"language-{}\">{}</code></pre>"
-  err: "<emoji document_id={}>💻</emoji><b> Code:</b>\n<pre><code class=\"language-{}\">{}</code></pre>\n\n<emoji document_id=5210952531676504517>🚫</emoji> <b>Error:</b>\n<pre><code class=\"language-{}\">{}</code></pre>"
-  compiling: "<emoji document_id=5325787248363314644>🫥</emoji> <b>Compiling code...</b>"
-  no_compiler: "<emoji document_id={}>💻</emoji> <b>{} compiler is not installed on the system.</b>"
-  _cmd_doc_e: "Evaluates python code"
-  _cmd_doc_ebf: "Evaluates Brainf*ck code"
-  _cmd_doc_ec: "Evaluates C code"
-  _cmd_doc_ecpp: "Evaluates C++ code"
-  _cmd_doc_enode: "Evaluates Node.js code"
-  _cmd_doc_ephp: "Evaluates PHP code"
-  _cmd_doc_eruby: "Evaluates Ruby code"
-  _cls_doc: "Evaluates code in various languages"
+  eval: "<emoji document_id={}>💻</emoji><b> Código:</b>\n<pre><code class=\"language-{}\">{}</code></pre>\n\n<emoji document_id=5197688912457245639>✅</emoji><b> Resultado:</b>\n<pre><code class=\"language-{}\">{}</code></pre>"
+  err: "<emoji document_id={}>💻</emoji><b> Código:</b>\n<pre><code class=\"language-{}\">{}</code></pre>\n\n<emoji document_id=5210952531676504517>🚫</emoji> <b>Erro:</b>\n<pre><code class=\"language-{}\">{}</code></pre>"
+  compiling: "<emoji document_id=5325787248363314644>🫥</emoji> <b>Compilando código...</b>"
+  no_compiler: "<emoji document_id={}>💻</emoji> <b>O compilador {} não está instalado no sistema.</b>"
+  _cmd_doc_e: "Avalia código Python"
+  _cmd_doc_ebf: "Avalia código Brainf*ck"
+  _cmd_doc_ec: "Avalia código C"
+  _cmd_doc_ecpp: "Avalia código C++"
+  _cmd_doc_enode: "Avalia código Node.js"
+  _cmd_doc_ephp: "Avalia código PHP"
+  _cmd_doc_eruby: "Avalia código Ruby"
+  _cls_doc: "Avalia código em várias linguagens"
 
 translate:
   name: "Translator"
@@ -572,13 +572,13 @@ translate:
 
 quickstart:
   name: "Quickstart"
-  base: "🪐🇬🇧 <b>Hello.</b> You've just installed <b>Heroku</b> userbot.\n\n❓ <b>Need help?</b> Feel free to join our support chat. We help <b>everyone</b>.\n\n📼 <b>You can find and install modules using </b><code>.heta</code><b>. Simply enter your search query and click ⛩ Install on needed module</b>\n\n📣 <b>Check out community made channels with modules: <a href=\"https://t.me/hikka_ub/126\">show</a></b>\n\n💁‍♀️ <b>Quickstart:</b>\n\n1️⃣ <b>Type</b> <code>.help</code> <b>to see modules list</b>\n2️⃣ <b>Type</b> <code>.help &lt;ModuleName/command&gt;</code> <b>to see help of module ModuleName</b>\n3️⃣ <b>Type</b> <code>.dlmod &lt;link&gt;</code> <b>to load module from link</b>\n4️⃣ <b>Type</b> <code>.loadmod</code> <b>with reply to file to install module from it</b>\n5️⃣ <b>Type</b> <code>.unloadmod &lt;ModuleName&gt;</code> <b>to unload module ModuleName</b>\n\n💡 <b>Heroku supports modules from Friendly-Telegram and GeekTG, as well as its own ones.</b>"
-  railway: "🚂 <b>Your userbot is installed on Railway</b>. This platform has only <b>500 free hours per month</b>. Once this limit is reached, your <b>Heroku will be frozen</b>. Next month <b>you will need to go to https://railway.app and restart it</b>."
-  lavhost: "✌️ <b>Your userbot is installed on lavHost</b>. Make sure to join @lavhost for important notifications and updates. All questions regarding the platform should be asked in @lavhostchat."
-  language_saved: "🇬🇧 Language saved!"
-  language: "🇬🇧 English"
-  btn_support: "🥷 Support chat"
-  _cls_doc: "Notifies user about userbot installation"
+  base: "🪐🇧🇷 <b>Olá.</b> Você acabou de instalar o bot <b>Heroku</b>.\n\n❓ <b>Precisa de ajuda?</b> Sinta-se à vontade para entrar no nosso chat de suporte. Ajudamos <b>todos</b>.\n\n📼 <b>Você pode encontrar e instalar módulos usando</b> <code>.heta</code><b>. Basta digitar sua pesquisa e clicar em ⛩ Instalar no módulo desejado.</b>\n\n📣 <b>Confira os canais da comunidade com módulos: <a href=\"https://t.me/hikka_ub/126\">aqui</a></b>\n\n💁‍♀️ <b>Introdução Rápida:</b>\n\n1️⃣ <b>Digite</b> <code>.help</code> <b>para ver a lista de módulos</b>\n2️⃣ <b>Digite</b> <code>.help <NomeDoMódulo/comando></code> <b>para ver a ajuda sobre `NomeDoMódulo`</b>\n3️⃣ <b>Digite</b> <code>.dlmod <link></code> <b>para carregar o módulo a partir do link</b>\n4️⃣ <b>Digite</b> <code>.loadmod</code> <b>com resposta ao arquivo para instalar o módulo a partir dele</b>\n5️⃣ <b>Digite</b> <code>.unloadmod <NomeDoMódulo></code> <b>para descarregar o módulo `NomeDoMódulo`</b>\n\n💡 <b>O Heroku suporta módulos do Friendly-Telegram e GeekTG, bem como os seus próprios.</b>"
+  railway: "🚂 <b>Seu bot está instalado no Railway</b>. Esta plataforma tem apenas <b>500 horas gratuitas por mês</b>. Quando este limite for atingido, seu <b>bot será congelado</b>. No próximo mês, <b>você precisará acessar https://railway.app e reiniciá-lo</b>."
+  lavhost: "✌️ <b>Seu bot está instalado no lavHost</b>. Entre em @lavhost para notificações e atualizações importantes. Todas as perguntas sobre a plataforma devem ser feitas em @lavhostchat."
+  language_saved: "🇧🇷 Idioma salvo!"
+  language: "🇧🇷 Português"
+  btn_support: "🥷 Chat de suporte"
+  _cls_doc: "Notificar o usuário sobre a instalação do userbot"
 
 $validators:
   boolean: "booleano"
