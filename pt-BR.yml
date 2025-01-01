@@ -231,7 +231,7 @@ settings:
   name: "Settings"
   installation: '<emoji document_id=5363805650327450240>▪️</emoji> A instalação é muito fácil! Basta inserir o seguinte no terminal do seu servidor:
 
-<pre><code class="language-bash">sudo apt update && sudo apt upgrade -y && sudo apt install git && sudo apt install python3-pip && git clone https://github.com/coddrago/Heroku && cd Heroku && pip install -r requirements.txt && python3 -m hikka</code></pre>
+<<pre><code class="language-bash">sudo apt update &amp;&amp; sudo apt upgrade -y &amp;&amp; sudo apt install git &amp;&amp; sudo apt install python3-pip &amp;&amp; git clone https://github.com/coddrago/Heroku &amp;&amp; cd Heroku &amp;&amp; pip install -r requirements.txt &amp;&amp; python3 -m hikka</code></pre>
 <emoji document_id=5299027123913105700>😐</emoji> Se você não tiver acesso sudo, simplesmente remova as etapas iniciais.
 
 <emoji document_id=5300777464820145682>🥳</emoji> Vamos revisar alguns argumentos:
@@ -426,7 +426,7 @@ help:
   core_notice: "<emoji document_id=5355133243773435190>☝️</emoji> <b>Este é um módulo principal. Você não pode descarregá-lo nem substituí-lo</b>"
 
 heroku_info:
-  name: "InfoHeroku"
+  name: "HerokuInfo"
   owner: "Dono"
   version: "Versão"
   build: "Build"
