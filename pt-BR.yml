@@ -229,22 +229,22 @@ presets:
 
 settings:
   name: "Settings"
-  installation: '<emoji document_id=5363805650327450240>▪️</emoji> A instalação é muito fácil! Basta inserir o seguinte no terminal do seu servidor:
+  installation: '<emoji document_id=5363805650327450240>▪️</emoji> A instalação é muito fácil! Basta digitar o seguinte no terminal do seu servidor:
 
-<<pre><code class="language-bash">sudo apt update &amp;&amp; sudo apt upgrade -y &amp;&amp; sudo apt install git &amp;&amp; sudo apt install python3-pip &amp;&amp; git clone https://github.com/coddrago/Heroku &amp;&amp; cd Heroku &amp;&amp; pip install -r requirements.txt &amp;&amp; python3 -m hikka</code></pre>
-<emoji document_id=5299027123913105700>😐</emoji> Se você não tiver acesso sudo, simplesmente remova as etapas iniciais.
+<pre><code class="language-bash">sudo apt update &amp;&amp; sudo apt upgrade -y &amp;&amp; sudo apt install git &amp;&amp; sudo apt install python3-pip &amp;&amp; git clone https://github.com/coddrago/Heroku &amp;&amp; cd Heroku &amp;&amp; pip install -r requirements.txt &amp;&amp; python3 -m hikka</code></pre>
+<emoji document_id=5299027123913105700>😐</emoji> Se você não tem acesso sudo, simplesmente remova as etapas iniciais.
 
-<emoji document_id=5300777464820145682>🥳</emoji> Vamos revisar alguns argumentos:
+<emoji document_id=5300777464820145682>🥳</emoji> Vamos ver alguns argumentos:
 
-<emoji document_id=5787313834012184077>🔐</emoji> O argumento <code>--root</code> permite que você execute o Heroku como um usuário <b>root</b>.
+<emoji document_id=5787313834012184077>🔐</emoji> O argumento <code>--root</code> permite que você execute o Heroku como um <b>usuário root</b>.
 
-<emoji document_id=5785209342986817408>🌎</emoji> O argumento <code>--no-web</code> permite o login na sua conta <b>diretamente no terminal, em vez de usar um link</b> <code>{}.lhr.life</code>.
+<emoji document_id=5785209342986817408>🌎</emoji> O argumento <code>--no-web</code> permite fazer login na sua conta <b>diretamente no terminal, em vez de através de um link</b> <code>{}.lhr.life</code>.
 
 <emoji document_id=5471895949804575096>🤲</emoji> No entanto, se você quiser migrar do hikariatama Hikka, baixe este módulo:
 
 <pre><code class="language-heroku">{prefix}dlm https://raw.githubusercontent.com/coddrago/modules/main/SwitchToHeroku.py</code></pre>
 
-É completamente seguro e irá ajudá-lo a atualizar para o Heroku automaticamente.
+Ele é completamente seguro e ajudará você a fazer a migração para o Heroku automaticamente'
   too_many_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Argumentos demais</b>"
   blacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} na lista negra do userbot</b>"
   unblacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} removido da lista negra do userbot</b>"
@@ -356,14 +356,14 @@ test:
   _cls_doc: "Realize operações com base em auto-testes do userbot"
 
 update_notifier:
-  name: "UpdateNotifier"
+  name: "Atualizador"
   update_required: "🆕 <b>Atualização do Heroku disponível!</b>\n\nNova versão do Heroku lançada.\n🔮 <b>Heroku <s>{}</s> -> {}</b>\n\n{}"
-  more: "\n<i><b>🎥 E {} outras...</b></i>"
-  _cfg_doc_disable_notifications: "Desativar notificações de atualização."
-  latest_disabled: "As notificações sobre a última atualização foram desativadas."
+  more: "\n<i><b>🎥 E {} mais...</b></i>"
+  _cfg_doc_disable_notifications: "Desativar notificações de atualização"
+  latest_disabled: "As notificações sobre a última atualização foram suprimidas"
   update: "🔄 Atualizar"
   ignore: "🚫 Ignorar"
-  changelog: '<emoji document_id=5434144690511290129>📰</emoji> <b>Changelog da última atualização principal:</b><pre><code class="language-heroku">{}</code></pre>'
+  changelog: '<emoji document_id=5434144690511290129>📰</emoji> <b>Changelog da última atualização importante:</b><pre><code class="language-heroku">{}</code></pre>'
   _cls_doc: "Monitora os lançamentos mais recentes do Heroku e notifica você quando uma atualização for necessária."
 
 updater:
