@@ -438,7 +438,7 @@ heroku_info:
   send_info: "Enviar informações do userbot"
   description: "ℹ️ Isso não comprometerá nenhuma informação sensível."
   up-to-date: "<emoji document_id=5370699111492229743>😌</emoji> <b>Atualizado</b>"
-  update_required: "<emoji document_id=5424728541650494040>😕</emoji> <b>Atualização necessária</b> <code>.update</code>"
+  update_required: "<emoji document_id=5424728541650494040>😕</emoji> <b>Atualização obrigatória</b> <code>{prefix}update</code>"
   setinfo_no_args: "<emoji document_id=5370881342659631698>😢</emoji> <b>Você precisa especificar o texto para alterar as informações.</b>"
   setinfo_success: "<emoji document_id=5436040291507247633>🎉</emoji> <b>Informações alteradas com sucesso!</b>"
   _cfg_cst_msg: "Mensagem personalizada para informações. Pode conter as palavras-chave {me}, {version}, {build}, {prefix}, {platform}, {upd}, {uptime}, {cpu_usage}, {ram_usage}, {branch}"
